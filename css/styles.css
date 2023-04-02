@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Lobster&display=swap');
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+/* to make half image hidden */
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.titleimage {
+    transform: rotate(25deg);
+    width: 20%;
+    position: absolute;
+    right: 23%;
+}
+
+.btn:hover {
+    font-size: 23px;
+}
+
+
+/* .contact {
+    margin-left: 30rem;
+    /* 16px=1rem
+    400/16
+    200/8
+    100/4
+    50/2
+    25 */
+
+.col-lg-6 h1 {
+    /* padding-top: 20%; */
+    font-size: 4rem;
+    font-family: 'Lobster', cursive;
+    font-weight: 20px;
+    line-height: 5rem;
+    color: white;
+}
+
+
+/* navbar styling */
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    margin-right: 30rem;
+}
+
+.nav-link {
+    margin-right: 2rem;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 1.5rem;
+    padding-left: 0;
+}
+
+
+/* navbar end  */
+
+#features i {
+    /* background-color: #ff4c68; */
+    color: #ff4c68;
+    align-items: center;
+    margin: 2rem;
+}
+
+#features i:hover {
+    color: red;
+}
+
+#features h3 {
+    font-size: 1.5rem;
+}
+
+#features {
+    padding: 6rem 11rem 6rem 11rem;
+}
+
+#features .col-lg-4 {
+    text-align: center;
+}
+
+#testimonials {
+    text-align: center;
+    color: white;
+    background-color: #ff4c68;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: 'Lobster', cursive;
+    line-height: 1.5;
+}
+
+.doggy {
+    width: 25%;
+    border-radius: 100%;
+    padding: 2rem;
+}
+
+#press {
+    background-color: #ff4c68;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+
+#press img {
+    width: 15%;
+    margin: 20px 20px 40px;
+}
+
+.carousel-inner {
+    padding: 6rem 11rem 6rem 11rem;
+}
+
+#pricing {
+    text-align: center;
+    padding: 6rem 11rem 6rem 11rem;
+}
+
+.colcard {
+    padding: 3% 2%;
+}
+
+@media(max-width: 1028px) {
+    .titleimage {
+        position: static;
+        width: 50%;
+        transform: rotate(0deg);
+        margin-top: 1rem;
+    }
+    #title {
+        text-align: center;
+    }
+    .navbar-brand {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+
+/* styling cta  */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 6rem;
+}
+
+#cta h3 {
+    font-size: 4rem;
+    font-family: 'Lobster', cursive;
+    font-weight: 20px;
+    line-height: 5rem;
+    color: white;
+    text-align: center;
+    padding: 6rem 11rem 2rem 11rem;
+}
+
+.cta1 {
+    margin: 0.8rem;
+}
+
+#footer {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+#footer i {
+    margin: 1rem;
+}
